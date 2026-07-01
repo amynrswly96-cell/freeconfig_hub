@@ -1,0 +1,66 @@
+name: freeconfig_hub
+description: "کانفیگ رایگان | FreeConfig Hub - اپلیکیشن مدیریت و اتصال کانفیگ V2Ray/Xray"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Networking
+  dio: ^5.4.3
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Routing
+  go_router: ^14.2.0
+
+  # VPN core (wraps Android VpnService + Xray core)
+  flutter_v2ray: ^1.0.15
+
+  # QR scanning
+  mobile_scanner: ^5.1.1
+
+  # Utilities
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+  intl: ^0.19.0
+  package_info_plus: ^8.0.0
+  uuid: ^4.4.0
+  url_launcher: ^6.3.0
+  share_plus: ^9.0.0
+  flutter_native_splash: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.11
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/flags/
+
+flutter_native_splash:
+  color: "#0B1020"
+  image: assets/images/logo.png
+  color_dark: "#0B1020"
+  image_dark: assets/images/logo.png
+  android_12:
+    color: "#0B1020"
+    image: assets/images/logo.png
