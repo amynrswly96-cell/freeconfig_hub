@@ -25,7 +25,7 @@ dependencies:
   go_router: ^14.2.0
 
   # VPN core (wraps Android VpnService + Xray core)
-  flutter_v2ray: ^1.0.15
+  flutter_v2ray: ^1.0.10
 
   # QR scanning
   mobile_scanner: ^5.1.1
